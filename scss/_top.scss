@@ -1,0 +1,16 @@
+
+// -------------------------上の段-------------------------------
+.top-left {
+   background-image: url(../img/skidive3.jpg);
+}
+.top-right {
+   .top-right-inside1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background-image: url(../img/skidive2.jpg);
+   }
+   .top-right-inside2 {
+      border-top: 1px solid #fff;
+      background-image: url(../img/skidive1.jpg);
+   }
+}

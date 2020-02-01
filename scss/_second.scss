@@ -1,0 +1,17 @@
+
+// -------------------------下の段-------------------------------
+   .second-left {
+      .second-left-inside1 {
+         grid-column-start: 1;
+         grid-column-end: 3;
+         background-image: url(../img/roma1.jpg);
+      }
+      .second-left-inside2 {
+         border-top: 1px solid #fff;
+         background-image: url(../img/roma2.jpg);
+      }
+   }
+   .second-right {
+      background-image: url(../img/roma3.jpg);
+   }
+

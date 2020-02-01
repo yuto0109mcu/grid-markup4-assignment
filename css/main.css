@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reset.css.map */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+.mono {
+  background-size: cover;
+  filter: grayscale(80%);
+  transition: 0.5s;
+}
+.mono:hover {
+  filter: grayscale(0);
+}
+
+.menu {
+  width: 200px;
+  background-color: #eee9e3;
+  height: 100vh;
+  position: fixed;
+}
+.menu ul {
+  padding-top: 50px;
+  margin-left: 35px;
+}
+.menu ul li {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.menu ul li:first-child {
+  color: #000;
+}
+.menu ul li:hover {
+  color: #000;
+}
+
+.grid {
+  padding-left: 200px;
+  width: 100%;
+}
+.grid .wrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 1px;
+}
+.grid .top-left, .grid .top-right, .grid .second-right {
+  width: 100%;
+}
+.grid .top-left:after, .grid .top-right:after, .grid .second-right:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.grid .top-right, .grid .second-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60% 40%;
+}
+.grid .top-right .article-texts, .grid .second-left .article-texts {
+  padding: 30px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background-color: #24282e;
+}
+.grid .top-right .article-texts p, .grid .second-left .article-texts p {
+  color: #888;
+  font-size: 1.1rem;
+}
+.grid .top-right .article-texts .article-title, .grid .second-left .article-texts .article-title {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+.grid .top-right .article-texts .article-text, .grid .second-left .article-texts .article-text {
+  line-height: 1.5rem;
+}
+
+.top-left {
+  background-image: url(../img/skidive3.jpg);
+}
+
+.top-right .top-right-inside1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url(../img/skidive2.jpg);
+}
+.top-right .top-right-inside2 {
+  border-top: 1px solid #fff;
+  background-image: url(../img/skidive1.jpg);
+}
+
+.second-left .second-left-inside1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url(../img/roma1.jpg);
+}
+.second-left .second-left-inside2 {
+  border-top: 1px solid #fff;
+  background-image: url(../img/roma2.jpg);
+}
+
+.second-right {
+  background-image: url(../img/roma3.jpg);
+}
+
+/*# sourceMappingURL=main.css.map */
