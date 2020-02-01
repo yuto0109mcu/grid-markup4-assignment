@@ -1,6 +1,10 @@
 .grid {
    padding-left: 200px;
    width: 100%;
+   @include tablet {
+      border-top: 60px solid;
+      padding: 0;
+   }
 
    .wrap {
       width: 100%;
@@ -9,7 +13,7 @@
       grid-template-rows: auto auto;
       grid-gap: 1px;
    }
-   .top-left, .top-right, .second-right {
+   .first-left, .first-right, .second-right {
       width: 100%;
       &:after {
          content: "";
@@ -18,7 +22,7 @@
       }
    }
 
-   .top-right, .second-left {
+   .first-right, .second-left {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 60% 40%;
@@ -27,17 +31,47 @@
          border-top: 1px solid #fff;
          border-right: 1px solid #fff;
          background-color: rgb(36, 40, 46);
-         p {
+         @include tablet {
+            padding: 15px;
+         }
+         @include sp {
+            padding: 7px;
+         }
+         .article-text, .date {
             color: #888;
             font-size: 1.1rem;
+            @include sp {
+               display: none;
+            }
          }
          .article-title {
             color: #fff;
             font-size: 1.6rem;
             margin: 10px 0;
+            @include tablet {
+               font-size: 1.3rem;
+            }
+            @include sp {
+               font-size: 1rem;
+            }
          }
          .article-text {
             line-height: 1.5rem;
+            @include tablet {
+               line-height: 1.2rem;
+            }
+            @include sp {
+               font-size: 1rem;
+               font-weight: bold;
+            }
+         }
+         .read-more {
+            display: none;
+            color: #fff;
+            border-bottom: 1px solid #fff;
+            @include sp {
+               display: inline-block;
+            }
          }
       }
       

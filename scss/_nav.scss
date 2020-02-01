@@ -1,8 +1,11 @@
 .menu {
    width: 200px;
-   background-color: #eee9e3;;
+   background-color: #eee9e3;
    height: 100vh;
    position: fixed;
+   @include tablet {
+      display: none;
+   }
 
    ul {
       padding-top: 50px;
