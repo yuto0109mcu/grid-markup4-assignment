@@ -17,24 +17,24 @@ const mediumPicLeft = document.querySelectorAll(".second-left-inside1")
 const smallPicLeft = document.querySelectorAll(".second-left-inside2")
 
 // -----------------First Floor------------------
-bigPicLeft[0].style.backgroundImage = "url(../img/skidive3.jpg)"
-mediumPicRight[0].style.backgroundImage = "url(../img/skidive2.jpg)"
-smallPicRight[0].style.backgroundImage = "url(../img/skidive1.jpg)"
+bigPicLeft[0].style.backgroundImage = "url(../img/skidive3.png)"
+mediumPicRight[0].style.backgroundImage = "url(../img/skidive2.png)"
+smallPicRight[0].style.backgroundImage = "url(../img/skidive1.png)"
 
 
 // -----------------Second Floor------------------
-bigPicRight[0].style.backgroundImage = "url(../img/roma1.jpg)"
-mediumPicLeft[0].style.backgroundImage = "url(../img/roma2.jpg)"
-smallPicLeft[0].style.backgroundImage = "url(../img/roma3.jpg)"
+bigPicRight[0].style.backgroundImage = "url(../img/roma1.png)"
+mediumPicLeft[0].style.backgroundImage = "url(../img/roma2.png)"
+smallPicLeft[0].style.backgroundImage = "url(../img/roma3.png)"
 
 
 // -----------------Third Floor------------------
-bigPicLeft[1].style.backgroundImage = "url(../img/hollywood1.jpg)"
-mediumPicRight[1].style.backgroundImage = "url(../img/hollywood3.jpg)"
-smallPicRight[1].style.backgroundImage = "url(../img/hollywood2.jpg)"
+bigPicLeft[1].style.backgroundImage = "url(../img/hollywood1.png)"
+mediumPicRight[1].style.backgroundImage = "url(../img/hollywood3.png)"
+smallPicRight[1].style.backgroundImage = "url(../img/hollywood2.png)"
 
 
 // -----------------Forth Floor------------------
-bigPicRight[1].style.backgroundImage = "url(../img/shitara3.jpg)"
-mediumPicLeft[1].style.backgroundImage = "url(../img/shitara2.jpg)"
-smallPicLeft[1].style.backgroundImage = "url(../img/shitara1.jpg)"
+bigPicRight[1].style.backgroundImage = "url(../img/shitara3.png)"
+mediumPicLeft[1].style.backgroundImage = "url(../img/shitara2.png)"
+smallPicLeft[1].style.backgroundImage = "url(../img/shitara1.png)"
