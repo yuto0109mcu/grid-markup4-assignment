@@ -39,4 +39,9 @@ body {
    &:hover {
       filter: grayscale(0);
    }
+   @include sp {
+      &:active {
+         filter: grayscale(0);
+      }
+   }
 }
