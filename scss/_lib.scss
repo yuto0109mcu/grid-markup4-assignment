@@ -38,10 +38,10 @@ body {
    transition: 0.5s;
    &:hover {
       filter: grayscale(0);
-   }
-   @include sp {
-      &:active {
-         filter: grayscale(0);
+      @include sp {
+         &:active {
+            filter: grayscale(0);
+         }
       }
    }
 }
