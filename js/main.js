@@ -17,24 +17,24 @@ const mediumPicLeft = document.querySelectorAll(".second-left-inside1")
 const smallPicLeft = document.querySelectorAll(".second-left-inside2")
 
 // -----------------First Floor------------------
-bigPicLeft[0].style.backgroundImage = "url(../images/skidive3.png)"
-mediumPicRight[0].style.backgroundImage = "url(../images/skidive2.png)"
-smallPicRight[0].style.backgroundImage = "url(../images/skidive1.png)"
+bigPicLeft[0].style.backgroundImage = "url(./images/skidive3.png)"
+mediumPicRight[0].style.backgroundImage = "url(./images/skidive2.png)"
+smallPicRight[0].style.backgroundImage = "url(./images/skidive1.png)"
 
 
 // -----------------Second Floor------------------
-bigPicRight[0].style.backgroundImage = "url(../images/roma1.png)"
-mediumPicLeft[0].style.backgroundImage = "url(../images/roma2.png)"
-smallPicLeft[0].style.backgroundImage = "url(../images/roma3.png)"
+bigPicRight[0].style.backgroundImage = "url(./images/roma1.png)"
+mediumPicLeft[0].style.backgroundImage = "url(./images/roma2.png)"
+smallPicLeft[0].style.backgroundImage = "url(./images/roma3.png)"
 
 
 // -----------------Third Floor------------------
-bigPicLeft[1].style.backgroundImage = "url(../images/hollywood1.png)"
-mediumPicRight[1].style.backgroundImage = "url(../images/hollywood3.png)"
-smallPicRight[1].style.backgroundImage = "url(../images/hollywood2.png)"
+bigPicLeft[1].style.backgroundImage = "url(./images/hollywood1.png)"
+mediumPicRight[1].style.backgroundImage = "url(./images/hollywood3.png)"
+smallPicRight[1].style.backgroundImage = "url(./images/hollywood2.png)"
 
 
 // -----------------Forth Floor------------------
-bigPicRight[1].style.backgroundImage = "url(../images/shitara3.png)"
-mediumPicLeft[1].style.backgroundImage = "url(../images/shitara2.png)"
-smallPicLeft[1].style.backgroundImage = "url(../images/shitara1.png)"
+bigPicRight[1].style.backgroundImage = "url(./images/shitara3.png)"
+mediumPicLeft[1].style.backgroundImage = "url(./images/shitara2.png)"
+smallPicLeft[1].style.backgroundImage = "url(./images/shitara1.png)"
